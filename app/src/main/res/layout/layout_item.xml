@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
     <de.hdodenhof.circleimageview.CircleImageView
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/player_image"
@@ -10,12 +11,12 @@
     android:layout_height="96dp"
     android:src="@drawable/msdhoni"
     app:civ_border_width="2dp"
-        android:layout_margin="10dp"
+
   />
     <TextView
         android:id="@+id/player_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height= "match_parent"
         android:text="Ms Dhoni"
         android:textSize="20sp"
         android:textAlignment="center"
